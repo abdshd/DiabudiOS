@@ -11,6 +11,19 @@
 		53868D182ACF568B002CA965 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53868D172ACF568B002CA965 /* ContentView.swift */; };
 		53868D1A2ACF568F002CA965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53868D192ACF568F002CA965 /* Assets.xcassets */; };
 		53868D1D2ACF568F002CA965 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53868D1C2ACF568F002CA965 /* Preview Assets.xcassets */; };
+		53868D252ACF5A66002CA965 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 53868D242ACF5A66002CA965 /* AWSAPIPlugin */; };
+		53868D272ACF5A66002CA965 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 53868D262ACF5A66002CA965 /* AWSCognitoAuthPlugin */; };
+		53868D292ACF5A66002CA965 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 53868D282ACF5A66002CA965 /* AWSDataStorePlugin */; };
+		53868D2B2ACF5A66002CA965 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 53868D2A2ACF5A66002CA965 /* Amplify */; };
+		53868D2D2ACF5D08002CA965 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 53868D2C2ACF5D08002CA965 /* amplifyconfiguration.json */; };
+		53868D2F2ACF5D14002CA965 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 53868D2E2ACF5D14002CA965 /* awsconfiguration.json */; };
+		5389BA812ACF6379002BD11A /* Session Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389BA802ACF6379002BD11A /* Session Manager.swift */; };
+		5389BA832ACF7638002BD11A /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389BA822ACF7638002BD11A /* ConfirmationView.swift */; };
+		5389BA852ACF76B2002BD11A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389BA842ACF76B2002BD11A /* LoginView.swift */; };
+		5389BA872ACF7933002BD11A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389BA862ACF7933002BD11A /* SignUpView.swift */; };
+		5389BA892ACF7986002BD11A /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5389BA882ACF7986002BD11A /* SessionView.swift */; };
+		58E47BB63F4E690F18635F95 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 82E93656A85E41825020F4CD /* awsconfiguration.json */; };
+		CE4E7E4EAB5FD6CF7AEFB71A /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E1B8A4356C4C588725A293E7 /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,16 @@
 		53868D172ACF568B002CA965 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53868D192ACF568F002CA965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53868D1C2ACF568F002CA965 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53868D2C2ACF5D08002CA965 /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		53868D2E2ACF5D14002CA965 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		5389BA7F2ACF62EB002BD11A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5389BA802ACF6379002BD11A /* Session Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session Manager.swift"; sourceTree = "<group>"; };
+		5389BA822ACF7638002BD11A /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		5389BA842ACF76B2002BD11A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5389BA862ACF7933002BD11A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5389BA882ACF7986002BD11A /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		82E93656A85E41825020F4CD /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		E1B8A4356C4C588725A293E7 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53868D292ACF5A66002CA965 /* AWSDataStorePlugin in Frameworks */,
+				53868D2B2ACF5A66002CA965 /* Amplify in Frameworks */,
+				53868D252ACF5A66002CA965 /* AWSAPIPlugin in Frameworks */,
+				53868D272ACF5A66002CA965 /* AWSCognitoAuthPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +64,7 @@
 			children = (
 				53868D142ACF568B002CA965 /* DiabudiOS */,
 				53868D132ACF568B002CA965 /* Products */,
+				DCBE94520D25461743E5C76F /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +79,16 @@
 		53868D142ACF568B002CA965 /* DiabudiOS */ = {
 			isa = PBXGroup;
 			children = (
+				5389BA7F2ACF62EB002BD11A /* Info.plist */,
 				53868D152ACF568B002CA965 /* DiabudiOSApp.swift */,
+				5389BA802ACF6379002BD11A /* Session Manager.swift */,
+				5389BA882ACF7986002BD11A /* SessionView.swift */,
+				5389BA862ACF7933002BD11A /* SignUpView.swift */,
+				5389BA842ACF76B2002BD11A /* LoginView.swift */,
+				5389BA822ACF7638002BD11A /* ConfirmationView.swift */,
 				53868D172ACF568B002CA965 /* ContentView.swift */,
+				53868D2E2ACF5D14002CA965 /* awsconfiguration.json */,
+				53868D2C2ACF5D08002CA965 /* amplifyconfiguration.json */,
 				53868D192ACF568F002CA965 /* Assets.xcassets */,
 				53868D1B2ACF568F002CA965 /* Preview Content */,
 			);
@@ -65,6 +101,15 @@
 				53868D1C2ACF568F002CA965 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCBE94520D25461743E5C76F /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				82E93656A85E41825020F4CD /* awsconfiguration.json */,
+				E1B8A4356C4C588725A293E7 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +128,12 @@
 			dependencies = (
 			);
 			name = DiabudiOS;
+			packageProductDependencies = (
+				53868D242ACF5A66002CA965 /* AWSAPIPlugin */,
+				53868D262ACF5A66002CA965 /* AWSCognitoAuthPlugin */,
+				53868D282ACF5A66002CA965 /* AWSDataStorePlugin */,
+				53868D2A2ACF5A66002CA965 /* Amplify */,
+			);
 			productName = DiabudiOS;
 			productReference = 53868D122ACF568B002CA965 /* DiabudiOS.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +162,9 @@
 				Base,
 			);
 			mainGroup = 53868D092ACF568B002CA965;
+			packageReferences = (
+				53868D232ACF5A66002CA965 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+			);
 			productRefGroup = 53868D132ACF568B002CA965 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +181,10 @@
 			files = (
 				53868D1D2ACF568F002CA965 /* Preview Assets.xcassets in Resources */,
 				53868D1A2ACF568F002CA965 /* Assets.xcassets in Resources */,
+				53868D2F2ACF5D14002CA965 /* awsconfiguration.json in Resources */,
+				53868D2D2ACF5D08002CA965 /* amplifyconfiguration.json in Resources */,
+				58E47BB63F4E690F18635F95 /* awsconfiguration.json in Resources */,
+				CE4E7E4EAB5FD6CF7AEFB71A /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5389BA892ACF7986002BD11A /* SessionView.swift in Sources */,
 				53868D182ACF568B002CA965 /* ContentView.swift in Sources */,
+				5389BA832ACF7638002BD11A /* ConfirmationView.swift in Sources */,
 				53868D162ACF568B002CA965 /* DiabudiOSApp.swift in Sources */,
+				5389BA852ACF76B2002BD11A /* LoginView.swift in Sources */,
+				5389BA872ACF7933002BD11A /* SignUpView.swift in Sources */,
+				5389BA812ACF6379002BD11A /* Session Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +333,7 @@
 				DEVELOPMENT_TEAM = R85R6A9877;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DiabudiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +362,7 @@
 				DEVELOPMENT_TEAM = R85R6A9877;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DiabudiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -339,6 +402,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53868D232ACF5A66002CA965 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53868D242ACF5A66002CA965 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53868D232ACF5A66002CA965 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSAPIPlugin;
+		};
+		53868D262ACF5A66002CA965 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53868D232ACF5A66002CA965 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		53868D282ACF5A66002CA965 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53868D232ACF5A66002CA965 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = AWSDataStorePlugin;
+		};
+		53868D2A2ACF5A66002CA965 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53868D232ACF5A66002CA965 /* XCRemoteSwiftPackageReference "amplify-ios" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53868D0A2ACF568B002CA965 /* Project object */;
 }
