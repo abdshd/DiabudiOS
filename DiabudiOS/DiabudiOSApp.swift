@@ -15,6 +15,8 @@ import AWSDataStorePlugin
 struct DiabudiOSApp: App {
     
     @ObservedObject var sessionManager = SessionManager()
+    @StateObject var itemModel = ItemsViewModel()
+    @ObservedObject var sugarModel = SugarViewModel()
     
      
     init() {
@@ -43,8 +45,15 @@ struct DiabudiOSApp: App {
                      .environmentObject(sessionManager)
                  
              case .session(let user):
-                 SessionView(user: user)
-                     .environmentObject(sessionManager)
+                 NavigationView{
+                     SessionView(user: user)
+                         .environmentObject(sessionManager)
+                         .task {
+                             await itemModel.listItems()
+                             await sugarModel.listSugarData()
+                             print("Done")
+                         }
+                 }
              }
          }
      }
@@ -52,6 +61,9 @@ struct DiabudiOSApp: App {
      private func configureAmplify() {
          do {
              try Amplify.add(plugin: AWSCognitoAuthPlugin())
+             let models = AmplifyModels()
+             try Amplify.add(plugin: AWSAPIPlugin(modelRegistration: models))
+             try Amplify.add(plugin: AWSDataStorePlugin(modelRegistration: models))
              try Amplify.configure()
              print("Amplify configured successfully")
              

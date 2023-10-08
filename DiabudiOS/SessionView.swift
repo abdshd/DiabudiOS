@@ -5,30 +5,37 @@
 //  Created by Abdullah Shahid on 2023-10-05.
 //
 
-import Amplify
 import SwiftUI
+import Amplify
 
 struct SessionView: View {
-    
-    @EnvironmentObject var sessionManager: SessionManager
     
     let user: AuthUser
     
     var body: some View {
-        VStack {
-            Spacer()
-            Text("You signed in as \(user.username) using Amplify!! Welcome to Diabud!")
-                .font(.largeTitle)
-                .multilineTextAlignment(.center)
-                
-            Spacer()
-            Button("Sign Out", action: {
-                async {
-                    await sessionManager.signOutLocally()
+        TabView {
+            HomeView(user: user)
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
                 }
-            })
+                .tag(0)
+            ItemsView()
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Items")
+                }
+                .tag(1)
+            ProcessesView()
+                .tabItem {
+                    Image(systemName: "play.circle.fill")
+                    Text("Processes")
+                }
+                .tag(2)
         }
+        .tabViewStyle(DefaultTabViewStyle())
     }
+    
 }
 
 struct SessionView_Previews: PreviewProvider {
