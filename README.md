@@ -10,4 +10,19 @@
 <h3>Health Privacy & Security</h3>
 <p>Secure authentication with parent-children relations</p>
 
-<img>
+<img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Homepage.png">
+
+<h2>Serverless Backend</h2>
+Utilized AWS for the backend to simplify developing the same application across multiple platforms.
+<img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Architecture.png">
+Services utilized are not limited to the diagram above, other AWS features were used as well.
+
+<h2>Sample Screens</h2>
+<p align="center">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Login.png" height="500">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/SignUp.png" height="500">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Homepage1.png" height="500">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Homepage2.png" height="500">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Items.png" height="500">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/ItemEdit.png" height="500">
+</p>
