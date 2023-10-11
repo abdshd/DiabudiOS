@@ -19,10 +19,10 @@ Services utilized are not limited to the diagram above, other AWS features were 
 
 <h2>Sample Screens</h2>
 <p align="center">
-  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Login.png" height="500">
-  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/SignUp.png" height="500">
-  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Homepage1.png" height="500">
-  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Homepage2.png" height="500">
-  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Items.png" height="500">
-  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/ItemEdit.png" height="500">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Login.png" height="400">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/SignUp.png" height="400">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Homepage1.png" height="400">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Homepage2.png" height="400">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/Items.png" height="400">
+  <img align="center" src="https://github.com/abdshd/DiabudiOS/blob/ff826fd5909d32a1fb8387917ae14135cb3dcd84/Images/ItemEdit.png" height="400">
 </p>
