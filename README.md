@@ -1,5 +1,7 @@
 <h1 >Welcome to Diabud iOS!</h1>
 
+A comprehensive solution for supply and blood-glucose management, live tracking, and alerts for enhanced health control.
+
 <h2>Core Features</h2>
 <h3>Real-Time Blood Sugar Monitoring</h3>
 <p>Connectivity with <i>NightScout</i> for live blood sugar data</p>
